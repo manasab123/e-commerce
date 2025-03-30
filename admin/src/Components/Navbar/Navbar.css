@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px ;
+    margin-bottom: 1px;
+    background: white;
+    max-height: 70px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nav-logo p{
+    color: #230241;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.nav-logo h6{
+    color: #f80a0a;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-left: 2px;
+}
+.nav-logo{
+    width: 200px;
+}
+.nav-profile{
+    width: 75px;
+}
