@@ -1,0 +1,25 @@
+.ReletedProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 80vh;
+    margin-bottom: 60px;
+}
+.ReletedProduct h1{
+    color: #230241;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.ReletedProduct hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #e0b0ff
+}
+.ReletedProduct-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}

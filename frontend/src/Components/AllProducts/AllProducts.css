@@ -1,0 +1,26 @@
+.allProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 100px 0px;
+}
+.allProducts h1{
+    color: rgb(29, 2, 55);
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.allProducts hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: blueviolet;
+}
+.allProducts-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 50px;
+    gap: 30px;
+
+}

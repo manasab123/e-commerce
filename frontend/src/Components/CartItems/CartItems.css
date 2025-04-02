@@ -1,0 +1,125 @@
+.Cartitems{
+    margin: 100px 170px;
+}
+.Cartitems hr {
+    height: 2px;
+    background: #230241;
+    border:0;
+}
+.Cartitems-main{
+    display: grid;
+    grid-template-columns:0.5fr 2fr 1fr 1fr 1fr 1fr ;
+    gap: 75px;
+    padding: 20px 0px;
+    color:#230241;
+    font-size: 18px;
+}
+.Cartitems-format p {
+    font-size: 15px;
+    color: black;
+    justify-content: center;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.Cartitems-product_icon{
+    height: 100px;
+}
+.Cartitems-product_remove{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+.Cartitems-quantity{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #230241;
+    margin-left: 10px;
+    background: #eadaf8;
+    border-radius: 10px;
+}
+.Cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.Cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.Cartitems-total-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.Cartitems-total button{
+    width: 262px;
+    height: 58px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    background: #230241;
+    color: #eadaf8;
+    border-radius: 20px;
+}
+.Cartitems-promocode{
+    flex: 1;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.Cartitems-promocode p{
+    margin-top: 80px;
+    color: #230241;
+}
+.Cartitems-promocode-box{
+    display: flex;
+    width: 400px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    background: #eadaf8;
+}
+.Cartitems-promocode-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+}
+.Cartitems-promocode-box button{
+    width: 100px;
+    height: 58px;
+    font-size: 16px;
+    background: #230241;
+    color: #eadaf8;
+    cursor: pointer;
+}
+.emptycart{
+    margin-top: 10px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background: #e0b0ff;
+    align-items: center;
+    justify-content: center;
+}
+.emptycart h1{
+    font-size: 38px;
+    margin: 5px;
+    color: #230241;
+}
+.emptycart h6{
+    font-size: 20px;
+    margin: 5px;
+    color: black;
+}
+.emptycart img{
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+}
+.emptycart p{
+    color: black;
+}

@@ -1,0 +1,49 @@
+.hero{
+    height: 90vh;
+    background: linear-gradient(180deg, white ,#e0b0ff 40%) ;
+    display: flex;
+}
+.hero-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.hero-left h2{
+    display: flex;
+    color: #230241;
+    font-size: 40px;
+    font-weight: 600;
+}
+.hero-left p{
+    display: flex;
+    color:rgb(35, 2, 65);
+    font-size: 50px;
+    font-weight: 600;
+}
+.hero-latest-btn button{
+    color: rgb(35, 2, 65);
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+    height: 60px;
+    border-radius: 35px;
+    border-color: black;
+    margin-top: 5px;
+}
+
+.hero .hero-right{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-right img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 820px;
+}
